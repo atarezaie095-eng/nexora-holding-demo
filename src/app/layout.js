@@ -29,5 +29,5 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
-  return <html lang="fa" dir="rtl" className={vazirmatn.variable}><body>{children}</body></html>;
+  return <html lang="fa" dir="rtl" className={vazirmatn.variable}><body className={vazirmatn.className}>{children}</body></html>;
 }
